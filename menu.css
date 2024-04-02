@@ -1,0 +1,46 @@
+/* menu.css */
+
+/* Style for the menu container */
+.menu {
+    padding: 20px;
+    background: rgba(17, 17, 17, 0.7) url('https://s3.envato.com/files/264314828/Empty%20room%2026_04.jpg') center center fixed;
+    background-size: cover; /* Ensures the background image covers the entire container */
+}
+
+/* Style for each dish */
+.menu .khaja,
+.menu .Dal,
+.menu .Buff,
+.menu .desert {
+    margin-bottom: 20px;
+    border: 1px solid #111111;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Style for dish images */
+.menu img {
+    width: 200px; /* Adjust the width to medium size */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    border: 1px solid #dddddd; /* Set a border color */
+}
+
+/* Style for dish titles */
+.menu h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #131212;
+}
+
+/* Style for dish prices */
+.menu p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style for dish descriptions */
+.menu p:last-child {
+    margin-bottom: 0;
+    color: #0c0c0c;
+}

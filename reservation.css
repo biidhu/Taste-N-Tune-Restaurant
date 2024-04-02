@@ -1,0 +1,65 @@
+/* CSS for Reservation Section */
+.reservation {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.reservation h2 {
+    font-size: 2.5rem;
+    color: #343a40;
+    margin-bottom: 20px;
+}
+
+.reservation p {
+    font-size: 1.1rem;
+    color: #6c757d;
+    margin-bottom: 30px;
+}
+
+.reservation form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.reservation label {
+    display: block;
+    font-size: 1.2rem;
+    color: #343a40;
+    margin-bottom: 5px;
+}
+
+.reservation input[type="text"],
+.reservation input[type="email"],
+.reservation input[type="tel"],
+.reservation input[type="date"],
+.reservation input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.reservation input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.reservation input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Media Query for Responsive Design */
+@media (max-width: 768px) {
+    .reservation form {
+        padding: 0 20px;
+    }
+}

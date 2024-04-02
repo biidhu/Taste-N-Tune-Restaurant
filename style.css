@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(17, 17, 17, 0.7) url('food.jpg') center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container h1 {
+    color: orangered;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    padding: 20px;
+    transition: 1s; /* Reduced transition time */
+    font-weight: bolder;
+}
+
+/* Change color of text for about, team, menu, contact, and reservation */
+.navbar ul li:nth-child(1) a {
+    color:crimson; /* Change color for About */
+}
+
+.navbar ul li:nth-child(2) a {
+    color:crimson; /* Change color for Team */
+}
+
+.navbar ul li:nth-child(3) a {
+    color:crimson; /* Change color for Menu */
+}
+
+.navbar ul li:nth-child(4) a {
+    color:crimson /* Change color for Contact */
+}
+
+.navbar ul li:nth-child(5) a {
+    color:crimson /* Change color for Reservation */
+}
+
+.navbar ul li a:hover {
+    box-shadow: 0 3px 40px orangered inset, 0 3px 50px orangered inset,
+        0 3px 50px orangered inset, 0 3px 50px orangered inset;
+}
+
+.navbar .reservation {
+    padding: 8px;
+    background-color: orangered;
+}
+
+/* Horizontal alignment for images in Team and Menu */
+.content img {
+    display: inline-block;
+    margin: 10px; /* Adjust margin as needed */
+}
+
+.content {
+    position: absolute;
+    color: #fff;
+    top: 40%;
+    left: 30%;
+}
+
+.content h3 {
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-left: 25px;
+    margin-bottom: 10px;
+}
+
+.content h1 {
+    font-size: 25px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.content p {
+    text-align:center;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-top: 10px;
+margin-right: 250px;
+}
+
+.search {
+    position:fixed;
+    margin-top: 25%;
+    margin-left: 42%;
+}
+
+.search input {
+    outline: none;
+    border: none;
+    padding: 13px 15px;
+    size: 5cap;
+    width: 100%;
+}
+
+.submit {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.submit a {
+    text-decoration: none;
+    color: #fff;
+    padding: 12px 15px;
+    background-color: orangered;
+    margin-left: 25px;
+}
